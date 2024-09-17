@@ -1,3 +1,34 @@
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore config or sensitive data files (if any)
+config.json
+secrets.json
+requirements.txt
+*.code-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+
+
+# Ignore generated reports and data (if applicable)
+*.xlsx
+*.csv
+*.json
+
+# Ignore log files
+*.log
+
+# Ignore any temp files
+*.tmp
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
